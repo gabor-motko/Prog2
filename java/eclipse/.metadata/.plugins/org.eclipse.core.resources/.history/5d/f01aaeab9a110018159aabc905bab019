@@ -1,0 +1,36 @@
+package helloworld;
+
+public class Person
+{
+	String name;
+	int age;
+	boolean isMale;
+	
+	public Person()
+	{
+		super();
+		this.name = "Na'onac";
+		this.age = 1425;
+		this.isMale = true;
+	}
+	
+	public Person(String name, int age, boolean isMale)
+	{
+		super();
+		this.name = name;
+		this.age = age;
+		this.isMale = isMale;
+	}
+	
+	@Override
+	public String toString()
+	{
+		return name + " (" + age + ", " + (this.isMale ? "male" : "female") + ")";  
+	}
+	
+	@Override
+	public boolean equals(Person other)
+	{
+		
+	}
+}

@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package helloworld;
+/**
+ * @author hallgato
+ *
+ */
+public class Main
+{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		Person p1 = new Person("Gipsz Jakab", 38, true);
+		Person p2 = new Person();
+		
+		System.out.println(p1);
+		System.out.println(p2);
+	}
+
+}

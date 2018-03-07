@@ -1,0 +1,42 @@
+package helloworld;
+
+public class Student extends Person 
+{
+	private int year;
+	private String neptun;
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public String getNeptun() {
+		return neptun;
+	}
+	public void setNeptun(String neptun) {
+		this.neptun = neptun;
+	}
+	public Student(int year, String major) {
+		super();
+		this.year = year;
+		this.neptun = major;
+	}
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Student(String name, int age, boolean isMale) {
+		super(name, age, isMale);
+		// TODO Auto-generated constructor stub
+	}
+	public Student(String name, int age, boolean isMale, int year, String major) {
+		super(name, age, isMale);
+		this.year = year;
+		this.neptun = major;
+	}
+	@Override
+	public String toString() {
+		return super.toString() + ", " + this.neptun + " (" + this.year + ")";
+	}
+	
+}
