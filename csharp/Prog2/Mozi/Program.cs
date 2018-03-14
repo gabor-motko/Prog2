@@ -42,17 +42,61 @@ namespace Mozi
     }
     class Program
     {
+        class FilmComparer : IComparer<Film>
+        {
+            public int Compare(Film x, Film y)
+            {
+                if (x.Profit != y.Profit)
+                    return y.Profit.CompareTo(x.Profit);
+                if (x.Year != y.Year)
+                    return x.Year.CompareTo(y.Year);
+                if (x.Income != y.Income)
+                    return y.Income.CompareTo(x.Income);
+                return x.Title.CompareTo(y.Title);
+            }
+        }
+
+        static int CompareFilm(Film x, Film y)
+        {
+            if (x.Profit != y.Profit)
+                return y.Profit.CompareTo(x.Profit);
+            if (x.Year != y.Year)
+                return x.Year.CompareTo(y.Year);
+            if (x.Income != y.Income)
+                return y.Income.CompareTo(x.Income);
+            return x.Title.CompareTo(y.Title);
+        }
+
+        static Comparison<Film> Comp = CompareFilm;
+
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int n = 0;
+            try
+            {
+                n = int.Parse(Console.ReadLine());
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("fucker");
+            }
             Film[] film = new Film[n];
             for(int i = 0; i < n; ++i)
             {
                 string[] line = Console.ReadLine().Split(';');
-                film[i] = new Film(line[0], int.Parse(line[1]), line[2], int.Parse(line[3]), int.Parse(line[4]));
+                try
+                {
+                    film[i] = new Film(line[0], int.Parse(line[1]), line[2], int.Parse(line[3]), int.Parse(line[4]));
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine("idiot");
+                }
             }
 
-            Array.Sort(film);
+            //Array.Sort(film, new FilmComparer()); //Rendező osztály
+            Array.Sort(film, Comp); //Comparison<> delegált
+            Array.Sort(film, (x, y) => { return new FilmComparer().Compare(x, y); });
             foreach(Film f in film)
                 Console.WriteLine(f);
         }
