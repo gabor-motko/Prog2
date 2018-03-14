@@ -29,15 +29,5 @@ public class Main
 //		s.useLocale(new Locale("en"));
 //		System.out.println(s.nextInt());
 //		s.close();
-		Hungarian h = new Hungarian();
-		English e = new English();
-		Communication t[] = new Communication[2];
-		t[0] = h;
-		t[1] = e;
-		
-		for(Communication p : t)
-		{
-		    p.hello("fucker");
-		}
 	}
 }

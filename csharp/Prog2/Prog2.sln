@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog2", "Prog2\Prog2.csproj", "{C48E63E3-EB11-49AD-AE98-B2F9EA932980}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozi", "Mozi\Mozi.csproj", "{F3C6E13E-5EE7-43CA-9BAA-20162AFD88DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B7058A0D-FDF1-452D-9FFD-36DF51C847DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinSquare", "LatinSquare\LatinSquare.csproj", "{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C48E63E3-EB11-49AD-AE98-B2F9EA932980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C48E63E3-EB11-49AD-AE98-B2F9EA932980}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C48E63E3-EB11-49AD-AE98-B2F9EA932980}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C48E63E3-EB11-49AD-AE98-B2F9EA932980}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3C6E13E-5EE7-43CA-9BAA-20162AFD88DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3C6E13E-5EE7-43CA-9BAA-20162AFD88DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C6E13E-5EE7-43CA-9BAA-20162AFD88DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C6E13E-5EE7-43CA-9BAA-20162AFD88DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7058A0D-FDF1-452D-9FFD-36DF51C847DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7058A0D-FDF1-452D-9FFD-36DF51C847DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7058A0D-FDF1-452D-9FFD-36DF51C847DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7058A0D-FDF1-452D-9FFD-36DF51C847DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
