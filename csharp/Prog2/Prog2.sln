@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinSquare", "LatinSquare\LatinSquare.csproj", "{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zh1_CD", "Zh1_CD\Zh1_CD.csproj", "{0BE25910-33BA-4425-AA43-A6CC80151C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zh1_AB", "Zh1_AB\Zh1_AB.csproj", "{D0949B76-A336-422D-BE96-160DAE3CC5A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9335E27-1877-4C6A-93E0-5650EE2CCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE25910-33BA-4425-AA43-A6CC80151C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE25910-33BA-4425-AA43-A6CC80151C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE25910-33BA-4425-AA43-A6CC80151C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE25910-33BA-4425-AA43-A6CC80151C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
