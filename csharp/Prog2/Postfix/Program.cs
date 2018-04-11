@@ -15,7 +15,7 @@ namespace Postfix
 
         delegate double OpDelegate(double a, double b);
 
-        Dictionary<char, OpDelegate> ops = new Dictionary<char, OpDelegate>()
+        static Dictionary<char, OpDelegate> ops = new Dictionary<char, OpDelegate>()
         {
             {'+', Add },
             {'-', Sub },
@@ -23,7 +23,7 @@ namespace Postfix
             {'/', Div }
         };
 
-        static int Evaluate(List<string> tokens)
+        static double Evaluate(List<string> tokens)
         {
             Stack<double> stack = new Stack<double>();
             foreach (var item in tokens)
@@ -31,12 +31,17 @@ namespace Postfix
                 try
                 {
                     int i = int.Parse(item);
+                    stack.Push(i);
                 }
-                catch(FormatException ex)
+                catch(FormatException)
                 {
+                    double op1 = stack.Pop();
+                    double op2 = stack.Pop();
 
+                    stack.Push(ops[item[0]](op1, op2));
                 }
             }
+            return stack.Pop();
         }
         
         static void Main(string[] args)
