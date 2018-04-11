@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zh1_CD", "Zh1_CD\Zh1_CD.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zh1_AB", "Zh1_AB\Zh1_AB.csproj", "{D0949B76-A336-422D-BE96-160DAE3CC5A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{37861253-FC9B-4776-8219-152C606C4A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postfix", "Postfix\Postfix.csproj", "{7C09A097-E89A-4A97-8A41-5FFE177097C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0949B76-A336-422D-BE96-160DAE3CC5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37861253-FC9B-4776-8219-152C606C4A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37861253-FC9B-4776-8219-152C606C4A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37861253-FC9B-4776-8219-152C606C4A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37861253-FC9B-4776-8219-152C606C4A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C09A097-E89A-4A97-8A41-5FFE177097C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C09A097-E89A-4A97-8A41-5FFE177097C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C09A097-E89A-4A97-8A41-5FFE177097C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C09A097-E89A-4A97-8A41-5FFE177097C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
