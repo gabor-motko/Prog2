@@ -2433,3 +2433,50 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2018-05-09 16:15:51.354
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-09 16:39:18.398
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-09 16:39:18.403
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.launching 4 107 2018-05-09 16:42:19.104
+!MESSAGE Launch configuration Main (1) references non-existing project Shell1.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2018-05-09 16:42:30.952
+!MESSAGE Launch configuration Main (1) references non-existing project Shell1.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2018-05-09 16:43:02.313
+!MESSAGE Launch configuration Main (1) references non-existing project Shell1.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-05-09 16:45:39.161
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_161\lib\rt.jar
+  [+] C:\Users\hallgato\Documents\mg\prog2\java\eclipse\Hangman\lib\shell.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
